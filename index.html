@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle</title>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="padre">
+      <div class="infotextos">
+        <span id="myElement"></span>
+      </div>
+
+      <br />
+
+      <div class="play">
+        <div class="section" id="board"></div>
+        <h2>Moves: <span id="turns">0</span></h2>
+        <div class="section" id="pices"></div>
+      </div>
+
+      <div class="boton">
+        <button id="btn" onclick="refrescar();">RELOAD</button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
